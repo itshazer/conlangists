@@ -1,0 +1,108 @@
+body {
+  font-family: "Century Gothic", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.page-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+  height: 100vh;
+}
+
+/* Left Section (Restored Original Design) */
+.left-section {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  height: 100%;
+  border-right: 2px solid rgb(187, 209, 255);
+  font-family: "Century Gothic", Arial, sans-serif;
+}
+
+.left-section a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  display: block;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.left-section a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* Middle Section */
+.middle-section {
+  background-color: #ffffff;
+  padding: 20px;
+  height: 100%;
+  font-family: "Gotham", Arial, sans-serif;
+}
+
+/* Auth Section */
+.auth-section {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.auth-section input {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.auth-section input:focus {
+  border-color: #008cff;
+}
+
+.auth-section button {
+  width: 50%;
+  padding: 12px;
+  background-color: #1a89bc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.auth-section button:hover {
+  background-color: #5bd0ff;
+}
+
+/* Right Section */
+.right-section {
+  background-color: #ffffff;
+  padding: 20px;
+  height: 100%;
+  border-left: 2px solid rgb(187, 209, 255);
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+      grid-template-columns: 1fr;
+  }
+
+  .left-section,
+  .middle-section,
+  .auth-section,
+  .right-section {
+      margin-bottom: 20px;
+  }
+}
+
+.error-text {
+  color: #e73c75;
+  font-weight: bold;
+  margin-bottom: 10px;
+}

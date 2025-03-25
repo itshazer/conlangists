@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <div class="left-section">
+            <div class="sidebar-content">
+                <ul>
+                    <li><a id="sidebar-home" href="#"></a></li>
+                    <li><a id="sidebar-explore" href="#"></a></li>
+                    <li><a id="sidebar-notifications" href="#"></a></li>
+                    <li><a id="sidebar-messages" href="#"></a></li>
+                    <li><a id="sidebar-profile" href="#"></a></li>
+                    <li><a id="sidebar-settings" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="middle-section" id="middle-section">
+            <h1 id="main-title"></h1>
+            <p id="main-homepage-text"></p>
+            <p id="main-updates-text"></p>
+        </div>
+
+        <div class="auth-section" id="auth-section" style="display: none;">
+            <p id="login-error" class="error-text" style="display: none;"></p>
+            <input type="email" id="login-email" placeholder="Email">
+            <input type="password" id="login-password" placeholder="Password">
+            <button id="login-button">Login</button>
+        </div>
+
+        <div class="right-section"></div>
+    </div>
+</body>
+</html>

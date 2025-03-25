@@ -1,0 +1,35 @@
+{
+    "sidebar": {
+        "login": "Login",
+        "signup": "Sign Up",
+        "home": "Home",
+        "explore": "Explore",
+        "notifications": "Notifications",
+        "messages": "Messages",
+        "profile": "Profile",
+        "settings": "Settings"
+    },
+    "main": {
+        "title": "Welcome to Conmedia",
+        "homepageText": "This is the homepage.",
+        "updatesText": "Here you can see all the latest updates!",
+        "loginForm": {
+            "email": "Email",
+            "password": "Password",
+            "loginBtn": "Login",
+            "invalidCredentials": "Invalid e-mail or password."
+        },
+        "signupForm": {
+            "name": "Name",
+            "email": "Email",
+            "password": "Password",
+            "confirmPassword": "Confirm Password",
+            "signupBtn": "Sign Up",
+            "nameRequired": "Name is required.",
+        "usernameTaken": "This username is already taken.",
+        "passwordTooShort": "Password must be at least 8 characters long.",
+        "passwordMismatch": "Passwords do not match."
+
+        }
+    }
+}
